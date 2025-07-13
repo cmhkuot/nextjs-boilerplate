@@ -7,8 +7,8 @@ const Version = memo(() => {
     console.info(`App Version: ${process.env.NEXT_PUBLIC_VERSION}`);
   }, []);
   return (
-    <div className="fixed bottom-0 right-0 px-2 py-1 mix-blend-difference">
-      <p className="text-white text-[10px] font-mono">v{process.env.NEXT_PUBLIC_VERSION}</p>
+    <div className="fixed right-0 bottom-0 px-2 py-1 mix-blend-difference">
+      <p className="font-mono text-[10px] text-white">v{process.env.NEXT_PUBLIC_VERSION}</p>
     </div>
   );
 });
