@@ -1,7 +1,12 @@
 {
   "name": "nextjs-boilerplate",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "author": {
+    "name": "Son H.Do",
+    "email": "dhson8396@gmail.com",
+    "url": "https://github.com/cmhkuot"
+  },
   "scripts": {
     "build": "next build",
     "dev": "next dev --turbopack",
