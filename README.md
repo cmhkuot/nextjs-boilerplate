@@ -1,13 +1,19 @@
+
+
 # Next.js Boilerplate
 
-> Personal Next.js boilerplate for rapid project setup and best practices.
+![Next.js](https://img.shields.io/badge/Next.js-14%2B-000?logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-18%2B-61DAFB?logo=react&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.x-38B2AC?logo=tailwindcss&logoColor=white)
+
+Personal Next.js boilerplate for rapid project setup and best practices.
 
 ## Features
 
 - Next.js 14+ (App Router)
 - TypeScript
+- Tailwind CSS (PostCSS ready)
 - Pre-configured ESLint & Prettier
-- PostCSS & Tailwind CSS ready
 - Customizable folder structure
 - Example components, hooks, and utilities
 
@@ -38,7 +44,7 @@
 - Edit `src/app/page.tsx` to start building your homepage.
 - Add components in `src/components/`.
 - Update global styles in `src/styles/globals.css`.
-- Store constants, hooks, and utilities in their respective folders.
+- Store constants, hooks, types, and utilities in their respective folders under `src/`.
 
 ## Customization
 
@@ -50,6 +56,35 @@
 
 Deploy easily to [Vercel](https://vercel.com/) or your preferred platform.
 
+## Project Structure
+
+```
+nextjs-boilerplate/
+├── src/
+│   ├── app/
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   ├── components/
+│   ├── constants/
+│   ├── hooks/
+│   ├── styles/
+│   │   └── globals.css
+│   ├── types/
+│   └── utils/
+├── public/
+├── next.config.ts
+├── tailwind.config.ts
+├── tsconfig.json
+└── package.json
+```
+
+## Main Dependencies
+
+- **Next.js**: React framework for server-side rendering, static site generation, and more
+- **React**: JavaScript library for building user interfaces
+- **Tailwind CSS**: Utility-first CSS framework
+- **ESLint & Prettier**: Code linting and formatting
+- **TypeScript**: Strongly typed programming language
 
 ## License
 
@@ -57,4 +92,4 @@ This project is licensed under the terms found in the [LICENSE](./LICENSE) file.
 
 ## Author
 
-Created by [cmhkuot](https://github.com/cmhkuot)
+Created by [Son H.Do](https://github.com/cmhkuot)
