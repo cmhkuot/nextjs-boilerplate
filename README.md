@@ -2,15 +2,15 @@
 
 # Next.js Boilerplate
 
-![Next.js](https://img.shields.io/badge/Next.js-14%2B-000?logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/React-18%2B-61DAFB?logo=react&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-15%2B-000?logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-19%2B-61DAFB?logo=react&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.x-38B2AC?logo=tailwindcss&logoColor=white)
 
 Personal Next.js boilerplate for rapid project setup and best practices.
 
 ## Features
 
-- Next.js 14+ (App Router)
+- Next.js 15+ (App Router)
 - TypeScript
 - Tailwind CSS (PostCSS ready)
 - Pre-configured ESLint & Prettier
